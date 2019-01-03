@@ -1,0 +1,277 @@
+{
+	"class_default": {
+		"time": "17:00",
+		"duration": "170",
+		"location": "DBH 1300"
+	},
+	"events" : [
+		{
+			"date": "2019-01-07",
+			"type": "due",
+			"title": "Discussion Leading Preferences",
+			"link": "https://canvas.eee.uci.edu/courses/14619/quizzes/50908"
+		},
+		{
+			"date": "2019-01-07",
+			"type": "class",
+			"title": "History of Ubiquitous Computing",
+			"framing_readings": [
+				{
+					"authors": ["Mark Weiser"],
+					"title": "The Computer for the 21st Century",
+					"venue": "Scientific American",
+					"volume": 265,
+					"issue": 3,
+					"date": "1991",
+					"link": "https://www.jstor.org/stable/24938718"
+				},
+				{
+					"authors": ["Gregory D. Abowd", "Elizabeth D. Mynatt"],
+					"title": "Charting Past, Present, and Future Research in Ubiquitous Computing",
+					"venue": "TOCHI",
+					"volume": 7,
+					"issue": 1,
+					"date": "2000",
+					"link": "https://doi.org/10.1145/344949.344988"
+				}
+			],
+			"notes": "There are no papers of current research contributions this week. No reading report is necessary."
+		},
+		{
+			"date": "2019-01-14",
+			"type": "class",
+			"title": "Understanding and Explaining Context",
+			"framing_readings": [
+				{
+					"authors": ["Daniel Salber", "Anind K. Dey", "Gregory D. Abowd"],
+					"title": "The Context Toolkit: Aiding the Development of Context-Enabled Applications",
+					"venue": "CHI 1999",
+					"link": "https://doi.org/10.1145/302979.303126"
+				},
+				{
+					"authors": ["Paul Dourish"],
+					"title": "What We Talk About When We Talk About Context",
+					"venue": "Personal and Ubiquitous Computing",
+					"volume": 8,
+					"issue": 1,
+					"date": "2004",
+					"link": "https://doi.org/10.1007/s00779-003-0253-8"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd": "tbd"
+				},
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
+			"date": "2019-01-21",
+			"type": "holiday",
+			"title": "No class, Martin Luther King Day"
+		},
+		{
+			"date": "2019-01-21",
+			"type": "project",
+			"title": "Project Proposal",
+			"anchor": "proposal",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/14619/assignments/275387", "presentation": "https://canvas.eee.uci.edu/courses/14619/assignments/275390"}
+		},
+		{
+			"date": "2019-01-28",
+			"type": "class",
+			"title": "Novel Sensing",
+			"framing_readings": [
+				{
+					"authors": ["Dan Morris", "T. Scott Saponas", "Desney Tan"],
+					"title": "Emerging Input Technologies for Always-Available Mobile Interaction",
+					"venue": "Foundations and Trends in Human-Computer Interaction",
+					"volume": 4,
+					"issue": 4,
+					"date": "2011",
+					"link": "https://doi.org/10.1561/1100000023",
+					"notes": "You may skip section 4."
+				}
+			],
+			"current_readings": [
+				{
+					"tbd": "tbd"
+				},
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
+			"date": "2019-02-04",
+			"type": "class",
+			"title": "Instrumenting the Environment",
+			"framing_readings": [
+				{
+					"authors": ["Sarah Mennicken", "Jo Vermeulen", "Elaine M. Huang"],
+					"title": "From Today's Augmented Houses to Tomorrow's Smart Homes: New Directions for Home Automation Research",
+					"venue": "UbiComp 2014",
+					"link": "https://doi.org/10.1145/2632048.2636076"
+				},
+				{
+					"authors": ["Jon Froehlich", "Eric Larson", "Sidhant Gupta", "Gabe Cohn", "Matthew S. Reynolds", "Shwetak N. Patel"],
+					"title": "Disaggregated End-Use Energy Sensing for the Smart Grid",
+					"venue": "IEEE Pervasive Computing",
+					"volume": 10,
+					"issue": 1,
+					"date": "2011",
+					"link": "https://doi.org/10.1109/MPRV.2010.74"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd": "tbd"
+				},
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
+			"date": "2019-02-11",
+			"type": "class",
+			"title": "Engagement and Self-Improvement",
+			"framing_readings": [
+				{
+					"authors": ["Sunny Consolvo", "Predrag Klasnja", "David W. McDonald", "James A. Landay"],
+					"title": "Designing for Healthy Lifestyles: Design Considerations for Mobile Technologies to Encourage Consumer Health and Wellness",
+					"venue": "Foundations and Trends in Human-Computer Interaction",
+					"link": "https://doi.org/10.1145/302979.303126",
+					"volume": 6,
+					"issue": "3-4",
+					"date": "2014",
+					"link": "https://doi.org/10.1561/1100000040",
+					"notes": "You may skip sections 2 and 4."
+				}
+			],
+			"current_readings": [
+				{
+					"tbd": "tbd"
+				},
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
+			"date": "2019-02-18",
+			"type": "holiday",
+			"title": "No class, President's Day"
+		},
+		{
+			"date": "2019-02-18",
+			"type": "project",
+			"anchor": "milestone",
+			"title": "Milestone Report",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/14619/assignments/275393", "presentation": "https://canvas.eee.uci.edu/courses/14619/assignments/275395"}
+		},
+		{
+			"date": "2019-02-25",
+			"type": "class",
+			"title": "Personal Tracking",
+			"framing_readings": [
+				{
+					"authors": ["Ian Li", "Anind Dey", "Jodi Forlizzi"],
+					"title": "A Stage-Based Model of Personal Informatics Systems",
+					"venue": "CHI 2010",
+					"link": "https://doi.org/10.1145/1753326.1753409"
+				},
+				{
+					"authors": ["Daniel A. Epstein", "An Ping", "James Fogarty", "Sean A. Munson"],
+					"title": "A Lived Informatics Model of Personal Informatics",
+					"venue": "UbiComp 2015",
+					"link": "https://doi.org/10.1145/2750858.2804250"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd": "tbd"
+				},
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
+			"date": "2019-03-04",
+			"type": "class",
+			"title": "Privacy and Security",
+			"framing_readings": [
+				{
+					"authors": ["Marc Langheinrich"],
+					"title": "Privacy in Ubiquitous Computing",
+					"venue": "Chapter 3 in Ubiquitous Computing Fundamentals, John Krumm",
+					"date": "2009",
+					"link": "https://uc.inf.usi.ch/wp-content/cache/mendeley-file-cache/8bfbde68-ca7e-38ec-9c7a-f3e82297ce3c.pdf"
+				}
+			],
+			"current_readings": [
+				{
+					"tbd": "tbd"
+				},
+				{
+					"tbd": "tbd"
+				}
+			]
+		},
+		{
+			"date": "2019-03-11",
+			"type": "class",
+			"title": "The Future of Ubiquitous Computing",
+			"framing_readings": [
+				{
+					"authors": ["Gregory D. Abowd"],
+					"title": "What Next, Ubicomp? Celebrating an Intellectual Disappearing Act",
+					"venue": "UbiComp 2012",
+					"link": "https://doi.org/10.1145/2370216.2370222"
+				},
+				{
+					"authors": ["Gregory D. Abowd"],
+					"title": "Beyond Weiser: From Ubiquitous to Collective Computing",
+					"venue": "Computer",
+					"volume": 49,
+					"issue": 1,
+					"date": "2016",
+					"link": "https://doi.org/10.1109/MC.2016.22"
+				},
+				{
+					"authors": ["Anind K. Dey", "Adrian de Freitas", "Afsaneh Doryab", "Brandon Taylor", "Sangwon Bae", "Jaemin Chun", "Jung Wook Park", "Michael Nebeling", "Nikola Banovic", "Rushil Khurana", "Sunyoung Park", "Jennifer Mankoff"],
+					"title": "I was Promised a Calm Walk in the Woods! Achieving Weiser's Vision of Ubicomp by Getting Rid of Ubicomp Technology",
+					"venue": "Keynote at UbiComp 2016",
+					"link": "/files/readings/Weiserians.pdf"
+				}
+			],
+			"notes": "There are no papers of current research contributions this week."
+		},
+		{
+			"date": "2019-03-18",
+			"type": "project",
+			"title": "Final Poster",
+			"anchor": "finalposter",
+			"link": "https://canvas.eee.uci.edu/courses/14619/assignments/275396"
+		},
+		{
+			"date": "2019-03-20",
+			"type": "class",
+			"title": "Poster Session",
+			"location": "TBD",
+			"time": "10:30",
+			"duration": "120",
+			"notes": "Tentatively 10:30am-12:30pm. Location TBD. Date may also change."
+		},
+		{
+			"date": "2019-03-22",
+			"type": "project",
+			"title": "Final Report",
+			"anchor": "finalreport",
+			"link": "https://canvas.eee.uci.edu/courses/14619/assignments/275397"
+		}
+	]
+}

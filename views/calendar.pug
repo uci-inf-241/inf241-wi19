@@ -1,0 +1,78 @@
+extends layout
+
+mixin paper(reading)
+	li
+		if "tbd" in reading
+			tbd TBD
+		else
+			each author, index in reading.authors
+				if index == reading.authors.length - 1 || reading.authors.length == 2
+					=author
+				else
+					=author + ", "
+				if index == reading.authors.length - 2
+					|  and 
+			| . 
+			a(href=reading.link)=reading.title
+			='. ' + reading.venue
+			if reading.volume
+				=' ' + reading.volume
+			if reading.issue
+				= ', ' + reading.issue
+			if reading.date
+				='. ' + reading.date
+			| . 
+			if reading.notes
+				span.note='Note: ' + reading.notes
+
+block content
+	main.container-fluid
+		h1 Calendar
+		p Subscription link: 
+			a(href="/calendar.ics") in241-fa18.depstein.net/calendar.ics
+		p
+			tbd All deadlines are subject to change, particularly prior to the start of the quarter.
+		each day in calendar
+			hr.row
+			.row
+				div.col-2
+					h2=day.date_str
+				div.col-10.row
+					each event in day.events
+						.col-12(class= 'event ' + event.type)
+							if event.type == "class"
+								h2= event.title
+								if "framing_readings" in event
+									if event.framing_readings.length > 1
+										p Read the framing papers:
+									else
+										p Read the framing paper:
+									ul
+										each reading in event.framing_readings
+											+paper(reading)
+								if "current_readings" in event
+									p Read one of the current papers:
+									ul
+										each reading in event.current_readings
+											+paper(reading)
+								if "notes" in event
+									h3 Notes
+									p=event.notes
+							else if event.type == "officehours_daniel"
+								h2= event.label
+							else if event.type == "holiday" || event.type == "absence"
+								h2= event.title
+							else if event.type == "project" || event.type == "due"
+								if event.anchor
+									div.title
+										h2
+											| Due: 
+											a(href='/project#' + event.anchor)= event.title
+								else if event.link
+									div.title
+										h2
+											| Due: 
+											a(href=event.link)= event.title
+								else
+									h2= 'Due: ' + event.title
+								div= event.name
