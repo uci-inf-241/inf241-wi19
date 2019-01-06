@@ -54,7 +54,7 @@ exports.writeICS = () => {
 			var body = {
 				"summary": 'Class: ' + e.title,
 				"start": time,
-				"end": time.add(calendar_data.class_default.duration, "minutes"),
+				"end": moment(time).add(calendar_data.class_default.duration, "minutes"),
 				"location": calendar_data.class_default.location
 			}
 			if(e.location) {
@@ -64,7 +64,7 @@ exports.writeICS = () => {
 				body.start = moment(e.date + " " + e.time);
 			}
 			if(e.duration) {
-				body.end = body.start.add(e.duration, "minutes");
+				body.end = moment(body.start).add(e.duration, "minutes");
 			}
 			return body;
 		} else if(e.type == "project") {
