@@ -32,6 +32,9 @@ block content
 			a(href="/calendar.ics") in241-wi19.depstein.net/calendar.ics
 		p
 			tbd All deadlines are subject to change, particularly prior to the start of the quarter.
+		p Your discussion leading group must choose two recent papers to assign for each week. I have assembled a list of recommendations for 
+			a(href="https://docs.google.com/document/d/1yD0HThD8kcgEbEjso0nBObhhi8GAn5Ciw_EXPRTIpfs/edit?usp=sharing") recent papers
+			| . You may choose from these papers or suggest another paper(s) not on this list.
 		each day in calendar
 			hr.row
 			.row
@@ -42,6 +45,16 @@ block content
 						.col-12(class= 'event ' + event.type)
 							if event.type == "class"
 								h2= event.title
+									if "slides" in event
+										| 
+										a(href=event.slides, target="_blank") (slides)
+								if "leaders" in event
+									p.leaders Discussion Leaders: 
+										each leader,index in event.leaders
+											if index < event.leaders.length - 1
+												=leader + ', '
+											else
+												=leader
 								if "framing_readings" in event
 									if event.framing_readings.length > 1
 										p Read the framing papers:
@@ -51,7 +64,7 @@ block content
 										each reading in event.framing_readings
 											+paper(reading)
 								if "current_readings" in event
-									p Read one of the current papers:
+									p Read one of the recent papers:
 									ul
 										each reading in event.current_readings
 											+paper(reading)

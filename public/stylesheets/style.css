@@ -166,6 +166,11 @@ span.note {
 	color: var(--color-complement-0);
 }
 
+p.leaders {
+	font-family: 'Lato', sans-serif;
+	color: var(--color-complement-0);
+}
+
 blockquote {
 	font-family: 'Lato', sans-serif;
 	font-size: 0.8em;
