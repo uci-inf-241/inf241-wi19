@@ -42,7 +42,7 @@
 			"date": "2019-01-14",
 			"type": "class",
 			"title": "Understanding and Explaining Context",
-			"leaders": ["Nailah Alhassoun", "Vijaya Kadirvel", "Prateek Singh"],
+			"leaders": ["Nailah Alhassoun", "TBD", "TBD"],
 			"framing_readings": [
 				{
 					"authors": ["Daniel Salber", "Anind K. Dey", "Gregory D. Abowd"],
@@ -57,15 +57,24 @@
 					"volume": 8,
 					"issue": 1,
 					"date": "2004",
-					"link": "https://doi.org/10.1007/s00779-003-0253-8"
+					"link": "https://doi.org/10.1007/s00779-003-0253-8",
+					"notes": "You may skim sections 3-5. This paper may be challenging if you do not have a social science background. We will work through it, come prepared to discuss it's meaning."
 				}
 			],
 			"current_readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Chu Luo", "Miikka Kuutila", "Simon Klakegg", "Denzil Ferreira", "Huber Flores", "Jorge Goncalves", "Mika Mäntylä", "Vassilis Kostakos"],
+					"title": "TestAWARE: A Laboratory-Oriented Testing Tool for Mobile Context-Aware Applications",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130945"
 				},
 				{
-					"tbd": "tbd"
+					"authors": ["Jinsoo Han", "Youn-Kwae Jeong", "Ilwoo Lee"],
+					"title": "A Rule-Based Ontology Reasoning System for Context-Aware Building Energy Management",
+					"venue": "CIT 2015",
+					"link": "https://doi.org/10.1109/CIT/IUCC/DASC/PICOM.2015.317"
 				}
 			]
 		},
