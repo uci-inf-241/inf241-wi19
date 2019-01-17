@@ -42,7 +42,8 @@
 			"date": "2019-01-14",
 			"type": "class",
 			"title": "Understanding and Explaining Context",
-			"leaders": ["Nailah Alhassoun", "TBD", "TBD"],
+			"slides": "files/slides/01_14_19_context.pdf",
+			"leaders": ["Nailah Alhassoun"],
 			"framing_readings": [
 				{
 					"authors": ["Daniel Salber", "Anind K. Dey", "Gregory D. Abowd"],
@@ -94,7 +95,7 @@
 			"date": "2019-01-28",
 			"type": "class",
 			"title": "Novel Sensing",
-			"leaders": ["Jamshir Goorabian", "Matthew Hemker", "Soham Kanade", "Heeyun Schwarz"],
+			"leaders": ["Matthew Hemker", "Heeyun Schwarz"],
 			"framing_readings": [
 				{
 					"authors": ["Dan Morris", "T. Scott Saponas", "Desney Tan"],
@@ -120,7 +121,7 @@
 			"date": "2019-02-04",
 			"type": "class",
 			"title": "Instrumenting the Environment",
-			"leaders": ["Wei-Che Chen", "Saloni Khasgiwala", "James Quintero", "Srisruthi Sridhar"],
+			"leaders": ["James Quintero"],
 			"framing_readings": [
 				{
 					"authors": ["Sarah Mennicken", "Jo Vermeulen", "Elaine M. Huang"],
@@ -151,7 +152,7 @@
 			"date": "2019-02-11",
 			"type": "class",
 			"title": "Engagement and Self-Improvement",
-			"leaders": ["Shivam Arora", "Nishanth Devarajan", "Kyu-Seon Yum"],
+			"leaders": ["Nishanth Devarajan", "Kyu-Seon Yum"],
 			"framing_readings": [
 				{
 					"authors": ["Sunny Consolvo", "Predrag Klasnja", "David W. McDonald", "James A. Landay"],
@@ -218,7 +219,7 @@
 			"date": "2019-03-04",
 			"type": "class",
 			"title": "Privacy and Security",
-			"leaders": ["Kyle Canavera", "Abhishek Mangla", "Daniel Ruiz"],
+			"leaders": ["Kyle Canavera", "Daniel Ruiz"],
 			"framing_readings": [
 				{
 					"authors": ["Marc Langheinrich"],
@@ -241,7 +242,7 @@
 			"date": "2019-03-11",
 			"type": "class",
 			"title": "The Future of Ubiquitous Computing",
-			"leaders": ["John English", "Tootiya Giyahchi", "Nathan Krueger", "Aziz Mahmood"],
+			"leaders": ["John English", "Nathan Krueger", "Aziz Mahmood"],
 			"framing_readings": [
 				{
 					"authors": ["Gregory D. Abowd"],
@@ -278,10 +279,10 @@
 			"date": "2019-03-20",
 			"type": "class",
 			"title": "Poster Session",
-			"location": "TBD",
+			"location": "DBH 5011",
 			"time": "10:30",
 			"duration": "120",
-			"notes": "Tentatively 10:30am-12:30pm. Location TBD. Date may also change."
+			"notes": "10:30am-12:30pm."
 		},
 		{
 			"date": "2019-03-22",

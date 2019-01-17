@@ -28,16 +28,12 @@ exports.getAllProjects = () => {
 		return moment(a.date) - moment(b.date);
 	}).map(event => {
 		project = {
-			//All assignments due 11:59pm the day before they are listed on the calendar
-			'due': moment(event.date).subtract(1, 'minutes'),
+			//All assignments due 11:59pm the day they are listed on the calendar
+			'due': moment(event.date).subtract(1, 'minutes').add(1, "days"),
 			'title': event.title
 		};
 		if('anchor' in event) {
 			project.anchor = event.anchor;
-			if(project.anchor.startsWith('final')) {
-				//... but the final assignments are actually due the day they are listed on the calendar.
-				project.due = project.due.add(1, "days");
-			}
 		}
 		if('link' in event) {
 			project.link = event.link;
@@ -68,12 +64,8 @@ exports.writeICS = () => {
 			}
 			return body;
 		} else if(e.type == "project") {
-			//All assignments due 11:59pm the day before they are listed on the calendar
-			var time = moment(e.date).subtract(1, "minutes");
-			if(e.anchor.startsWith("final")) {
-				//... but the final assignments are actually due the day they are listed on the calendar.
-				time = time.add(1, "days");
-			}
+			//All assignments due 11:59pm the day they are listed on the calendar
+			var time = moment(e.date).subtract(1, "minutes").add(1, "days");
 			return {
 				"summary": 'Due: ' + e.title,
 				"start": time,
