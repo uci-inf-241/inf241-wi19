@@ -95,7 +95,7 @@
 			"date": "2019-01-28",
 			"type": "class",
 			"title": "Novel Sensing",
-			"leaders": ["Matthew Hemker", "Heeyun Schwarz"],
+			"leaders": ["Matthew Hemker", "Heeyun Schwarz", "Akshay Bapat"],
 			"framing_readings": [
 				{
 					"authors": ["Dan Morris", "T. Scott Saponas", "Desney Tan"],
@@ -121,7 +121,7 @@
 			"date": "2019-02-04",
 			"type": "class",
 			"title": "Instrumenting the Environment",
-			"leaders": ["James Quintero"],
+			"leaders": ["James Quintero", "Vijaya Kadirvel", "Saloni Khasgiwala"],
 			"framing_readings": [
 				{
 					"authors": ["Sarah Mennicken", "Jo Vermeulen", "Elaine M. Huang"],
@@ -152,7 +152,7 @@
 			"date": "2019-02-11",
 			"type": "class",
 			"title": "Engagement and Self-Improvement",
-			"leaders": ["Nishanth Devarajan", "Kyu-Seon Yum"],
+			"leaders": ["Kyu-Seon Yum", "Tan Zhou"],
 			"framing_readings": [
 				{
 					"authors": ["Sunny Consolvo", "Predrag Klasnja", "David W. McDonald", "James A. Landay"],
@@ -191,7 +191,7 @@
 			"date": "2019-02-25",
 			"type": "class",
 			"title": "Personal Tracking",
-			"leaders": ["Hee Jeong Han", "Sina Labbaf", "Qingyang Li", "Qiancheng Wu"],
+			"leaders": ["Hee Jeong Han", "Sina Labbaf", "Qingyang Li"],
 			"framing_readings": [
 				{
 					"authors": ["Ian Li", "Anind Dey", "Jodi Forlizzi"],
@@ -219,7 +219,7 @@
 			"date": "2019-03-04",
 			"type": "class",
 			"title": "Privacy and Security",
-			"leaders": ["Kyle Canavera", "Daniel Ruiz"],
+			"leaders": ["Kyle Canavera", "Daniel Ruiz", "Qiancheng Wu"],
 			"framing_readings": [
 				{
 					"authors": ["Marc Langheinrich"],
@@ -242,7 +242,7 @@
 			"date": "2019-03-11",
 			"type": "class",
 			"title": "The Future of Ubiquitous Computing",
-			"leaders": ["John English", "Nathan Krueger", "Aziz Mahmood"],
+			"leaders": ["John English", "Aziz Mahmood"],
 			"framing_readings": [
 				{
 					"authors": ["Gregory D. Abowd"],
@@ -282,7 +282,7 @@
 			"location": "DBH 5011",
 			"time": "10:30",
 			"duration": "120",
-			"notes": "10:30am-12:30pm."
+			"notes": "In DBH 5011. 10:30am-12:30pm."
 		},
 		{
 			"date": "2019-03-22",
