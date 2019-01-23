@@ -2,7 +2,7 @@
 	"class_default": {
 		"time": "17:00",
 		"duration": "170",
-		"location": "DBH 1300"
+		"location": "DBH 1425"
 	},
 	"events" : [
 		{
@@ -110,10 +110,20 @@
 			],
 			"current_readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Eric Whitmire", "Mohit Jain", "Divye Jain", "Greg Nelson", "Ravi Karkar", "Shwetak Patel", "Mayank Goel"],
+					"title": "DigiTouch: Reconfigurable Thumb-to-Finger Input and Text Entry on Head-mounted Displays",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130978"
 				},
 				{
-					"tbd": "tbd"
+					"authors": ["Christian Holz", "Edward J. Wang"],
+					"title": "Glabella: Continuously Sensing Blood Pressure Behavior using an Unobtrusive Wearable Device",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3132024"
 				}
 			]
 		},
