@@ -151,10 +151,20 @@
 			],
 			"current_readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Frank Bentley", "Chris Luvogt", "Max Silverman", "Rushani Wirasinghe", "Brooke White", "Danielle Lottridge"],
+					"title": "Understanding the Long-Term Use of Smart Speaker Assistants",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 2,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3264901"
 				},
 				{
-					"tbd": "tbd"
+					"authors": ["Jimmy Moore", "Pascal Goffin", "Miriah Meyer", "Philip Lundrigan", "Neal Patwari", "Katherine Sward", "Jason Wiese"],
+					"title": "Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 2,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3264938"
 				}
 			]
 		},
