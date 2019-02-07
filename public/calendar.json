@@ -132,6 +132,7 @@
 			"type": "class",
 			"title": "Instrumenting the Environment",
 			"leaders": ["James Quintero", "Vijaya Kadirvel", "Saloni Khasgiwala"],
+			"slides": "files/slides/02_04_19_environment.pdf",
 			"framing_readings": [
 				{
 					"authors": ["Sarah Mennicken", "Jo Vermeulen", "Elaine M. Huang"],
@@ -183,15 +184,25 @@
 					"issue": "3-4",
 					"date": "2014",
 					"link": "https://www.nowpublishers.com/article/Details/HCI-040",
-					"notes": "You may skip sections 2 and 4."
+					"notes": "You may skip section 2 and 4."
 				}
 			],
 			"current_readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Kai Lukoff", "Cissy Yu", "Julie Kientz", "Alexis Hiniker"],
+					"title": "What Makes Smartphone Use Meaningful or Meaningless?",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 2,
+					"issue": 1,
+					"link": "https://doi.org/10.1145/3191754"
 				},
 				{
-					"tbd": "tbd"
+					"authors": ["Jaejeung Kim", "Chiwoo Cho", "Uichin Lee"],
+					"title": "Technology Supported Behavior Restriction for Mitigating Self-Interruptions in Multi-device Environments",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130932"
 				}
 			]
 		},
@@ -239,7 +250,7 @@
 			"date": "2019-03-04",
 			"type": "class",
 			"title": "Privacy and Security",
-			"leaders": ["Kyle Canavera", "Daniel Ruiz", "Qiancheng Wu"],
+			"leaders": ["Daniel Ruiz", "Qiancheng Wu"],
 			"framing_readings": [
 				{
 					"authors": ["Marc Langheinrich"],
