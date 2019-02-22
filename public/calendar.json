@@ -240,10 +240,20 @@
 			],
 			"current_readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Young-Ho Kim", "Jae Ho Jeon", "Bongshin Lee", "Eun Kyoung Choe", "Jinwook Seo"],
+					"title": "OmniTrack: A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130930"
 				},
 				{
-					"tbd": "tbd"
+					"authors": ["Lie Ming Tang", "Judy Kay"],
+					"title": "Harnessing Long Term Physical Activity Data—How Long-term Trackers Use Data and How an Adherence-based Interface Supports New Insights",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 2,
+					"link": "https://doi.org/10.1145/3090091"
 				}
 			]
 		},
