@@ -274,10 +274,20 @@
 			],
 			"current_readings": [
 				{
-					"tbd": "tbd"
+					"authors": ["Erin Griffiths", "Salah Assana", "Kamin Whitehouse"],
+					"title": "Privacy-preserving Image Processing with Binocular Thermal Cameras",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 4,
+					"link": "https://doi.org/10.1145/3161198"
 				},
 				{
-					"tbd": "tbd"
+					"authors": ["Can Liu", "Gradeigh D. Clark", "Janne Lindqvist"],
+					"title": "Guessing Attacks on User-Generated Gesture Passwords",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 1,
+					"link": "https://doi.org/10.1145/3053331"
 				}
 			]
 		},
