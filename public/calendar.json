@@ -224,6 +224,7 @@
 			"type": "class",
 			"title": "Personal Tracking",
 			"leaders": ["Hee Jeong Han", "Sina Labbaf", "Qingyang Li"],
+			"slides": "files/slides/02_25_19_personal_tracking.pdf",
 			"framing_readings": [
 				{
 					"authors": ["Ian Li", "Anind Dey", "Jodi Forlizzi"],
