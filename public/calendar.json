@@ -263,6 +263,7 @@
 			"type": "class",
 			"title": "Privacy and Security",
 			"leaders": ["Daniel Ruiz", "Qiancheng Wu"],
+			"slides": "files/slides/03_04_19_privacy_security.pdf",
 			"framing_readings": [
 				{
 					"authors": ["Marc Langheinrich"],
@@ -320,6 +321,11 @@
 				}
 			],
 			"notes": "There are no papers of current research contributions this week."
+		},
+		{
+			"date": "2019-03-11",
+			"type": "project",
+			"title": "Poster Draft"
 		},
 		{
 			"date": "2019-03-18",
