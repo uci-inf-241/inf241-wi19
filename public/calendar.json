@@ -297,6 +297,7 @@
 			"type": "class",
 			"title": "The Future of Ubiquitous Computing",
 			"leaders": ["John English", "Aziz Mahmood"],
+			"slides": "files/slides/03_11_19_future.pdf",
 			"framing_readings": [
 				{
 					"authors": ["Gregory D. Abowd"],
