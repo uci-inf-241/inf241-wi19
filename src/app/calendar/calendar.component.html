@@ -1,0 +1,51 @@
+<main class="container-fluid">
+	<h1>Calendar</h1>
+	<p>Your discussion leading group must choose two recent papers to assign for each week. I have assembled a list of recommendations for <a href="https://docs.google.com/document/d/1yD0HThD8kcgEbEjso0nBObhhi8GAn5Ciw_EXPRTIpfs/edit?usp=sharing">recent papers</a>. You may choose from these papers or suggest another paper(s) not on this list.</p>
+	<ng-container *ngFor="let day of calendar">
+		<hr class="row">
+		<div class="row">
+			<div class="col-2">
+				<h2>{{day.date_str}}</h2>
+			</div>
+			<div class="col-10">
+				<div class="col-12 event" [ngClass]="event.type" *ngFor="let event of day.events">
+					<h2 *ngIf="event.type == 'class'">
+						{{event.title}}
+						<a [href]="event.slides" target="_blank" *ngIf="event.slides">(slides)</a>
+					</h2>
+					<p class="leaders" *ngIf="event.leaders">Discussion Leaders:
+						<span *ngFor="let leader of event.leaders; let isLast=last">
+						   {{leader}}{{isLast ? '' : ', '}}
+						</span>
+					</p>
+					<p *ngIf="event.framing_readings">
+						Read the framing paper{{event.framing_readings.length > 1 ? 's' : ''}}:
+					</p>
+					<ul>
+						<li *ngFor="let reading of event.framing_readings"><app-paper [paper]="reading"></app-paper></li>
+					</ul>
+					<p *ngIf="event.current_readings">
+						Read one of the recent readings:
+					</p>
+					<ul>
+						<li *ngFor="let reading of event.current_readings"><app-paper [paper]="reading"></app-paper></li>
+					</ul>
+					<div *ngIf="event.notes">
+						<h3>Notes</h3>
+						<p>{{event.notes}}</p>
+					</div>
+					<h2 *ngIf="event.type == 'officehours_daniel'">{{event.label}}</h2>
+					<h2 *ngIf="event.type == 'holiday' || event.type == 'absence'">{{event.title}}</h2>
+					<div class="title" *ngIf="event.anchor && (event.type == 'project' || event.type == 'due')">
+						<h2>Due: <a href="/project#{{event.anchor}}">{{event.title}}</a></h2>
+					</div>
+					<div class="title" *ngIf="!event.anchor && event.link && (event.type == 'project' || event.type == 'due')">
+						<h2>Due: <a [href]="event.link">{{event.title}}</a></h2>
+					</div>
+					<h2 *ngIf="!event.link && !event.anchor && (event.type == 'project' || event.type == 'due')">Due: {{event.title}}</h2>
+					<div *ngIf="event.type == 'project' || event.type == 'due'">{{event.name}}</div>
+				</div>
+			</div>
+		</div>
+	</ng-container>
+</main>

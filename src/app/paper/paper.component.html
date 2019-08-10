@@ -1,0 +1,12 @@
+<span *ngIf="paper">
+	<span *ngIf="paper.tbd" class="tbd">TBD</span>
+	<span *ngFor="let author of paper.authors; let isLast=last; let c=count; let i=index">
+		{{c>2 && isLast ? 'and ':''}}{{c==2 && isLast ? ' and ':''}}{{author}}{{c>2&&i!=c-1?', ':''}}{{isLast?'.':''}}
+	</span>
+	<a [href]="paper.link">{{paper.title}}</a>. {{paper.venue}}
+	<span *ngIf="paper.volume">{{paper.volume}}</span>
+	<span *ngIf="paper.volume">, {{paper.issue}}</span>
+	<span *ngIf="paper.date">. {{paper.date}}</span>
+	&nbsp;
+	<span class="note" *ngIf="paper.notes">Note: {{paper.notes}}</span>
+</span>
