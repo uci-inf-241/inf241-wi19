@@ -1,0 +1,355 @@
+{
+	"class_default": {
+		"time": "17:00",
+		"duration": "170",
+		"location": "DBH 1425"
+	},
+	"events" : [
+		{
+			"date": "2019-01-07",
+			"type": "due",
+			"title": "Discussion Leading Preferences",
+			"link": "https://canvas.eee.uci.edu/courses/14619/quizzes/50908"
+		},
+		{
+			"date": "2019-01-07",
+			"type": "class",
+			"title": "History of Ubiquitous Computing",
+			"slides": "assets/slides/01_07_19_introduction.pdf",
+			"framing_readings": [
+				{
+					"authors": ["Mark Weiser"],
+					"title": "The Computer for the 21st Century",
+					"venue": "Scientific American",
+					"volume": 265,
+					"issue": 3,
+					"date": "1991",
+					"link": "https://www.jstor.org/stable/24938718"
+				},
+				{
+					"authors": ["Gregory D. Abowd", "Elizabeth D. Mynatt"],
+					"title": "Charting Past, Present, and Future Research in Ubiquitous Computing",
+					"venue": "TOCHI",
+					"volume": 7,
+					"issue": 1,
+					"date": "2000",
+					"link": "https://doi.org/10.1145/344949.344988"
+				}
+			],
+			"notes": "There are no papers of current research contributions this week. No reading report is necessary."
+		},
+		{
+			"date": "2019-01-14",
+			"type": "class",
+			"title": "Understanding and Explaining Context",
+			"slides": "assets/slides/01_14_19_context.pdf",
+			"leaders": ["Nailah Alhassoun"],
+			"framing_readings": [
+				{
+					"authors": ["Daniel Salber", "Anind K. Dey", "Gregory D. Abowd"],
+					"title": "The Context Toolkit: Aiding the Development of Context-Enabled Applications",
+					"venue": "CHI 1999",
+					"link": "https://doi.org/10.1145/302979.303126"
+				},
+				{
+					"authors": ["Paul Dourish"],
+					"title": "What We Talk About When We Talk About Context",
+					"venue": "Personal and Ubiquitous Computing",
+					"volume": 8,
+					"issue": 1,
+					"date": "2004",
+					"link": "https://doi.org/10.1007/s00779-003-0253-8",
+					"notes": "You may skim sections 3-5. This paper may be challenging if you do not have a social science background. We will work through it, come prepared to discuss it's meaning."
+				}
+			],
+			"current_readings": [
+				{
+					"authors": ["Chu Luo", "Miikka Kuutila", "Simon Klakegg", "Denzil Ferreira", "Huber Flores", "Jorge Goncalves", "Mika Mäntylä", "Vassilis Kostakos"],
+					"title": "TestAWARE: A Laboratory-Oriented Testing Tool for Mobile Context-Aware Applications",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130945"
+				},
+				{
+					"authors": ["Jinsoo Han", "Youn-Kwae Jeong", "Ilwoo Lee"],
+					"title": "A Rule-Based Ontology Reasoning System for Context-Aware Building Energy Management",
+					"venue": "CIT 2015",
+					"link": "https://doi.org/10.1109/CIT/IUCC/DASC/PICOM.2015.317"
+				}
+			]
+		},
+		{
+			"date": "2019-01-21",
+			"type": "holiday",
+			"title": "No class, Martin Luther King Day"
+		},
+		{
+			"date": "2019-01-21",
+			"type": "project",
+			"title": "Project Proposal",
+			"anchor": "proposal",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/14619/assignments/275387", "presentation": "https://canvas.eee.uci.edu/courses/14619/assignments/275390"}
+		},
+		{
+			"date": "2019-01-28",
+			"type": "class",
+			"title": "Novel Sensing",
+			"slides": "assets/slides/01_28_19_novel_sensing.pdf",
+			"leaders": ["Matthew Hemker", "Heeyun Schwarz", "Akshay Bapat"],
+			"framing_readings": [
+				{
+					"authors": ["Dan Morris", "T. Scott Saponas", "Desney Tan"],
+					"title": "Emerging Input Technologies for Always-Available Mobile Interaction",
+					"venue": "Foundations and Trends in Human-Computer Interaction",
+					"volume": 4,
+					"issue": 4,
+					"date": "2011",
+					"link": "https://www.nowpublishers.com/article/Details/HCI-023"
+				}
+			],
+			"current_readings": [
+				{
+					"authors": ["Eric Whitmire", "Mohit Jain", "Divye Jain", "Greg Nelson", "Ravi Karkar", "Shwetak Patel", "Mayank Goel"],
+					"title": "DigiTouch: Reconfigurable Thumb-to-Finger Input and Text Entry on Head-mounted Displays",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130978"
+				},
+				{
+					"authors": ["Christian Holz", "Edward J. Wang"],
+					"title": "Glabella: Continuously Sensing Blood Pressure Behavior using an Unobtrusive Wearable Device",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3132024"
+				}
+			]
+		},
+		{
+			"date": "2019-02-04",
+			"type": "class",
+			"title": "Instrumenting the Environment",
+			"leaders": ["James Quintero", "Vijaya Kadirvel", "Saloni Khasgiwala"],
+			"slides": "assets/slides/02_04_19_environment.pdf",
+			"framing_readings": [
+				{
+					"authors": ["Sarah Mennicken", "Jo Vermeulen", "Elaine M. Huang"],
+					"title": "From Today's Augmented Houses to Tomorrow's Smart Homes: New Directions for Home Automation Research",
+					"venue": "UbiComp 2014",
+					"link": "https://doi.org/10.1145/2632048.2636076"
+				},
+				{
+					"authors": ["Jon Froehlich", "Eric Larson", "Sidhant Gupta", "Gabe Cohn", "Matthew S. Reynolds", "Shwetak N. Patel"],
+					"title": "Disaggregated End-Use Energy Sensing for the Smart Grid",
+					"venue": "IEEE Pervasive Computing",
+					"volume": 10,
+					"issue": 1,
+					"date": "2011",
+					"link": "https://doi.org/10.1109/MPRV.2010.74"
+				}
+			],
+			"current_readings": [
+				{
+					"authors": ["Frank Bentley", "Chris Luvogt", "Max Silverman", "Rushani Wirasinghe", "Brooke White", "Danielle Lottridge"],
+					"title": "Understanding the Long-Term Use of Smart Speaker Assistants",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 2,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3264901"
+				},
+				{
+					"authors": ["Jimmy Moore", "Pascal Goffin", "Miriah Meyer", "Philip Lundrigan", "Neal Patwari", "Katherine Sward", "Jason Wiese"],
+					"title": "Managing In-home Environments through Sensing, Annotating, and Visualizing Air Quality Data",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 2,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3264938"
+				}
+			]
+		},
+		{
+			"date": "2019-02-11",
+			"type": "class",
+			"title": "Engagement and Self-Improvement",
+			"leaders": ["Kyu-Seon Yum", "Tan Zhou"],
+			"slides": "assets/slides/02_11_19_engagement.pdf",
+			"framing_readings": [
+				{
+					"authors": ["Sunny Consolvo", "Predrag Klasnja", "David W. McDonald", "James A. Landay"],
+					"title": "Designing for Healthy Lifestyles: Design Considerations for Mobile Technologies to Encourage Consumer Health and Wellness",
+					"venue": "Foundations and Trends in Human-Computer Interaction",
+					"link": "https://doi.org/10.1145/302979.303126",
+					"volume": 6,
+					"issue": "3-4",
+					"date": "2014",
+					"link": "https://www.nowpublishers.com/article/Details/HCI-040",
+					"notes": "You may skip section 2 and 4."
+				}
+			],
+			"current_readings": [
+				{
+					"authors": ["Kai Lukoff", "Cissy Yu", "Julie Kientz", "Alexis Hiniker"],
+					"title": "What Makes Smartphone Use Meaningful or Meaningless?",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 2,
+					"issue": 1,
+					"link": "https://doi.org/10.1145/3191754"
+				},
+				{
+					"authors": ["Jaejeung Kim", "Chiwoo Cho", "Uichin Lee"],
+					"title": "Technology Supported Behavior Restriction for Mitigating Self-Interruptions in Multi-device Environments",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130932"
+				}
+			]
+		},
+		{
+			"date": "2019-02-18",
+			"type": "holiday",
+			"title": "No class, President's Day"
+		},
+		{
+			"date": "2019-02-18",
+			"type": "project",
+			"anchor": "milestone",
+			"title": "Milestone Report",
+			"link": {"document": "https://canvas.eee.uci.edu/courses/14619/assignments/275393", "presentation": "https://canvas.eee.uci.edu/courses/14619/assignments/275395"}
+		},
+		{
+			"date": "2019-02-25",
+			"type": "class",
+			"title": "Personal Tracking",
+			"leaders": ["Hee Jeong Han", "Sina Labbaf", "Qingyang Li"],
+			"slides": "assets/slides/02_25_19_personal_tracking.pdf",
+			"framing_readings": [
+				{
+					"authors": ["Ian Li", "Anind Dey", "Jodi Forlizzi"],
+					"title": "A Stage-Based Model of Personal Informatics Systems",
+					"venue": "CHI 2010",
+					"link": "https://doi.org/10.1145/1753326.1753409"
+				},
+				{
+					"authors": ["Daniel A. Epstein", "An Ping", "James Fogarty", "Sean A. Munson"],
+					"title": "A Lived Informatics Model of Personal Informatics",
+					"venue": "UbiComp 2015",
+					"link": "https://doi.org/10.1145/2750858.2804250"
+				}
+			],
+			"current_readings": [
+				{
+					"authors": ["Young-Ho Kim", "Jae Ho Jeon", "Bongshin Lee", "Eun Kyoung Choe", "Jinwook Seo"],
+					"title": "OmniTrack: A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 3,
+					"link": "https://doi.org/10.1145/3130930"
+				},
+				{
+					"authors": ["Lie Ming Tang", "Judy Kay"],
+					"title": "Harnessing Long Term Physical Activity Data—How Long-term Trackers Use Data and How an Adherence-based Interface Supports New Insights",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 2,
+					"link": "https://doi.org/10.1145/3090091"
+				}
+			]
+		},
+		{
+			"date": "2019-03-04",
+			"type": "class",
+			"title": "Privacy and Security",
+			"leaders": ["Daniel Ruiz", "Qiancheng Wu"],
+			"slides": "assets/slides/03_04_19_privacy_security.pdf",
+			"framing_readings": [
+				{
+					"authors": ["Marc Langheinrich"],
+					"title": "Privacy in Ubiquitous Computing",
+					"venue": "Chapter 3 in Ubiquitous Computing Fundamentals, John Krumm",
+					"date": "2009",
+					"link": "https://uc.inf.usi.ch/wp-content/cache/mendeley-file-cache/8bfbde68-ca7e-38ec-9c7a-f3e82297ce3c.pdf"
+				}
+			],
+			"current_readings": [
+				{
+					"authors": ["Erin Griffiths", "Salah Assana", "Kamin Whitehouse"],
+					"title": "Privacy-preserving Image Processing with Binocular Thermal Cameras",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 4,
+					"link": "https://doi.org/10.1145/3161198"
+				},
+				{
+					"authors": ["Can Liu", "Gradeigh D. Clark", "Janne Lindqvist"],
+					"title": "Guessing Attacks on User-Generated Gesture Passwords",
+					"venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
+					"volume": 1,
+					"issue": 1,
+					"link": "https://doi.org/10.1145/3053331"
+				}
+			]
+		},
+		{
+			"date": "2019-03-11",
+			"type": "class",
+			"title": "The Future of Ubiquitous Computing",
+			"leaders": ["John English", "Aziz Mahmood"],
+			"slides": "assets/slides/03_11_19_future.pdf",
+			"framing_readings": [
+				{
+					"authors": ["Gregory D. Abowd"],
+					"title": "What Next, Ubicomp? Celebrating an Intellectual Disappearing Act",
+					"venue": "UbiComp 2012",
+					"link": "https://doi.org/10.1145/2370216.2370222"
+				},
+				{
+					"authors": ["Gregory D. Abowd"],
+					"title": "Beyond Weiser: From Ubiquitous to Collective Computing",
+					"venue": "Computer",
+					"volume": 49,
+					"issue": 1,
+					"date": "2016",
+					"link": "https://doi.org/10.1109/MC.2016.22"
+				},
+				{
+					"authors": ["Anind K. Dey", "Adrian de Freitas", "Afsaneh Doryab", "Brandon Taylor", "Sangwon Bae", "Jaemin Chun", "Jung Wook Park", "Michael Nebeling", "Nikola Banovic", "Rushil Khurana", "Sunyoung Park", "Jennifer Mankoff"],
+					"title": "I was Promised a Calm Walk in the Woods! Achieving Weiser's Vision of Ubicomp by Getting Rid of Ubicomp Technology",
+					"venue": "Keynote at UbiComp 2016",
+					"link": "/assets/readings/Weiserians.pdf"
+				}
+			],
+			"notes": "There are no papers of current research contributions this week."
+		},
+		{
+			"date": "2019-03-11",
+			"type": "project",
+			"title": "Poster Draft"
+		},
+		{
+			"date": "2019-03-18",
+			"type": "project",
+			"title": "Final Poster",
+			"anchor": "finalposter",
+			"link": "https://canvas.eee.uci.edu/courses/14619/assignments/275396"
+		},
+		{
+			"date": "2019-03-20",
+			"type": "class",
+			"title": "Poster Session",
+			"location": "DBH 5011",
+			"time": "10:30",
+			"duration": "120",
+			"notes": "In DBH 5011. 10:30am-12:30pm."
+		},
+		{
+			"date": "2019-03-22",
+			"type": "project",
+			"title": "Final Report",
+			"anchor": "finalreport",
+			"link": "https://canvas.eee.uci.edu/courses/14619/assignments/275397"
+		}
+	]
+}
